@@ -45,7 +45,7 @@ links.forEach(function(link) {
         //TIMERS
 
         setTimeout(function() { // setTimeout solo se ejecuta una vez
-                location.href = "/" // la direccion hacia donde quuiero ir 
+                location.href = "/destinations" // la direccion hacia donde quuiero ir 
             }, 600) //duracion de tiempo
 
         return false
