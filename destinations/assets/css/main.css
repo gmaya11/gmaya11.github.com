@@ -210,6 +210,25 @@ tr:hover {
     }
 }
 
+@media (max-width:600px) {
+    .paragraph {
+        width: 17em;
+    }
+}
+
+@media (max-width:800px) {
+    .paragraph {
+        width: 17em;
+    }
+    .main-image {
+        float: left;
+        margin-right: 1em;
+        width: 19em;
+        height: 15em;
+        padding-top: 1em;
+    }
+}
+
 
 /*@media (min-height: 550px) {
     .content {
