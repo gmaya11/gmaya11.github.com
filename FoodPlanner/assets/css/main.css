@@ -1,0 +1,125 @@
+/*
+COLORES
+Background
+Principal - Mint Cream:  #F1F7ED
+Lista de compras - Gold Metallic: #C2A83E
+
+Simbolos y botones
+MSU Green(verde oscuro):  #243E36
+Forest Green Crayola(verde caña): #7CA982
+
+Fuentes
+Tachado - Nyanza(verde palido): #E0EEC6
+Sin tachar - Mint Cream: #F1F7ED
+*/
+
+
+/*
+FUENTES
+Recetas: Yellowtail (cursive)
+Titulos: Oswald
+Parrafos: Poppins
+*/
+
+
+/*ETIQUETAS*/
+
+body {
+    background-color: white;
+}
+
+
+/*CLASES*/
+
+
+/* PARA PANTALLAS GRANDES*/
+
+.botones {
+    /*background: #F1F7ED;*/
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+
+/* PARA PANTALLAS GRANDES*/
+
+.registro {
+    position: relative;
+    background-color: #C2A83E;
+    color: #F1F7ED;
+    padding: 5px 28px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-weight: 300px;
+}
+
+
+/* PARA PANTALLAS GRANDES*/
+
+.container {
+    /*background: linear-gradient(-80deg,lightcyan,darkcyan,teal);*/
+    /*background-color: white;*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* PARA PANTALLAS GRANDES*/
+
+.content {
+    background-color: #F1F7ED;
+    height: 95%;
+    width: 90%;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+}
+
+.welcome {
+    background-color: yellow;
+    padding-bottom: 10em;
+    padding-top: -5em;
+    padding-left: 2em;
+    opacity: 65%;
+    position: relative;
+}
+
+.paragraph_w {
+    font-family: Oswald;
+    font-size: 30px;
+    padding-top: 20px;
+    float: left;
+    opacity: 10;
+}
+
+.img_w {
+    position: relative;
+    width: 100%;
+    max-height: 40%;
+    margin-top: 2em;
+}
+
+
+/* PARA PANTALLAS GRANDES*/
+
+
+/*ID*/
+
+#titulo {
+    display: flex;
+    align-items: flex-end;
+    /*background: #F1F7ED;*/
+    font-family: Oswald;
+    font-size: xx-large;
+    margin-left: 1em;
+}
+
+
+/*SEUDO CLASES*/
+
+
+/*MEDIA QUERIES*/
