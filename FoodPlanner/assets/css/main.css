@@ -97,10 +97,14 @@ body {
 }
 
 .img_w {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 90%;
     max-height: 40%;
+    margin: auto;
     margin-top: 2em;
+    animation-delay: 10s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
 
 
